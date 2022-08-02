@@ -5,22 +5,30 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
-import { HeaderComponent } from './header/header.component';
-import { ListTasksComponent } from './list-tasks/list-tasks.component';
 import { ListUsersComponent } from './list-users/list-users.component';
-import { HomeComponent } from './home/home.component';
-import { AdTaskComponent } from './ad-task/ad-task.component';
+import { TaskAppComponent } from './task-app/task-app.component';
+import { AddtaskComponent } from './addtask/addtask.component';
+import { UpdatetaskComponent } from './updatetask/updatetask.component';
+import { DeletetaskComponent } from './deletetask/deletetask.component';
+import { ListtaskComponent } from './listtask/listtask.component';
+import { HeaderComponent } from './header/header.component';
+import { ViewUserComponent } from './view-user/view-user.component';
+import { EditTaskComponent } from './edit-task/edit-task.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
     LoginComponent,
-    HeaderComponent,
-    ListTasksComponent,
     ListUsersComponent,
-    HomeComponent,
-    AdTaskComponent
+    TaskAppComponent,
+    AddtaskComponent,
+    UpdatetaskComponent,
+    DeletetaskComponent,
+    ListtaskComponent,
+    HeaderComponent,
+    ViewUserComponent,
+    EditTaskComponent
   ],
   imports: [
     BrowserModule,
